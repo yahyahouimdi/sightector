@@ -1,0 +1,33 @@
+# Python environments
+venv/
+.venv/
+venv1/
+DetectionModelServer/venv1/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Large training artifacts (re-create with `python -m sightector train all`).
+# The small baseline model and all reports are kept in git.
+artifacts/models/transformer/
+artifacts/models/bilstm/
+artifacts/models/ablation_*/
+*.safetensors
+*.pt
+
+# Hugging Face cache / misc
+.cache/
+*.log
+.DS_Store
+Thumbs.db
+data/external/
+
+# Processed splits are re-created by `python -m sightector prepare` (stats.json is kept)
+data/processed/*.csv
+
+# Node tooling for the slide builder
+node_modules/
