@@ -1,8 +1,0 @@
-numpy
-pandas
-scikit-learn
-nltkp
-matplotlib
-seaborn
-flask
-xgboost
