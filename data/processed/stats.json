@@ -1,0 +1,23 @@
+{
+  "raw_rows": 25947,
+  "after_empty_filter": 25947,
+  "conflicting_texts": 3,
+  "duplicates_removed": 106,
+  "clean_rows": 25833,
+  "harassment": 14866,
+  "clean": 10967,
+  "by_source": {
+    "civil_comments": {
+      "count": 9449,
+      "harassment": 4955
+    },
+    "original": {
+      "count": 16384,
+      "harassment": 9911
+    }
+  },
+  "train": 20666,
+  "train_augmented": 33314,
+  "val": 2583,
+  "test": 2584
+}

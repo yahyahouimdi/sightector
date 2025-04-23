@@ -1,0 +1,79 @@
+category,text,label
+plain insult,you are an idiot,1
+plain insult,you are so stupid,1
+plain insult,shut up you loser,1
+plain insult,what a pathetic moron,1
+plain insult,"nobody likes you, you ugly freak",1
+plain insult,you are worthless garbage,1
+profanity,fuck you,1
+profanity,go fuck yourself,1
+profanity,you piece of shit,1
+profanity,you stupid bitch,1
+profanity,what an asshole,1
+profanity,shut the fuck up,1
+threat,i will kill you,1
+threat,go kill yourself,1
+threat,i know where you live and i will hurt you,1
+threat,you deserve to die,1
+threat,i'm going to beat you up after school,1
+threat,i will find you and make you pay,1
+sexist,women belong in the kitchen,1
+sexist,shut up and make me a sandwich woman,1
+sexist,"you're just a dumb girl, nobody cares",1
+sexual harassment,send me nudes or else,1
+sexual harassment,"you're hot, i will rape you",1
+obfuscated,you are a fu*ck idiot,1
+obfuscated,iiiidiot,1
+obfuscated,you are such an iiidiot,1
+obfuscated,f u c k you,1
+obfuscated,f*ck off,1
+obfuscated,f**k you,1
+obfuscated,sh!t head,1
+obfuscated,you're a 1d10t,1
+obfuscated,stfu loser,1
+obfuscated,you are a b!tch,1
+obfuscated,u r a m0r0n,1
+obfuscated,k i l l yourself,1
+obfuscated,d1e in a fire,1
+obfuscated,fuuuuuck yooou,1
+obfuscated,you are ѕtupid,1
+obfuscated,STUPIIIID,1
+obfuscated,a$$hole,1
+obfuscated,you f-u-c-k-i-n-g retard,1
+obfuscated,dumb@ss,1
+obfuscated,you are a st*pid c0w,1
+obfuscated,b1tch please,1
+obfuscated,go to h3ll you l0ser,1
+hinglish,tu chutiya hai,1
+hinglish,saala kamina,1
+hinglish,teri maa ki,1
+clean,you are brave,0
+clean,"you are brilliant, thank you!",0
+clean,have a great day,0
+clean,thanks for your help with the article,0
+clean,"i disagree with your edit, can we discuss it?",0
+clean,the meeting is moved to 3pm,0
+clean,i love this song so much,0
+clean,congratulations on your graduation,0
+clean,can you send me the report please,0
+clean,good morning everyone,0
+clean,this is a really interesting paper,0
+clean,let's grab coffee tomorrow,0
+clean,happy birthday my friend,0
+clean,I'm proud of you,0
+tricky clean,kill the process and restart the server,0
+tricky clean,this exam is killing me,0
+tricky clean,I hate mondays,0
+tricky clean,that concert was sick!,0
+tricky clean,the movie was so bad it was funny,0
+tricky clean,my dog is a good boy,0
+tricky clean,shoot me an email when you are free,0
+tricky clean,the class assessment is due friday,0
+tricky clean,we need to beat the deadline,0
+tricky clean,sooo happy to see you,0
+tricky clean,the 4 of us will meet at 5,0
+tricky clean,this assignment is hard but fair,0
+tricky clean,the article about bullying was well written,0
+tricky clean,please don't use insulting language here,0
+tricky clean,he passed the class with honors,0
+tricky clean,grandpa fell asleep on the couch,0
