@@ -1,0 +1,16 @@
+{
+  "kind": "baseline",
+  "name": "TF-IDF + LogReg",
+  "threshold": 0.38999999999999996,
+  "val_metrics": {
+    "accuracy": 0.894696089818041,
+    "precision": 0.9146174863387978,
+    "recall": 0.9010767160161507,
+    "f1": 0.9077966101694915,
+    "macro_f1": 0.8925264639295112,
+    "roc_auc": 0.9534279835744369,
+    "pr_auc": 0.9634277058201942
+  },
+  "augmented": true,
+  "train_seconds": 25.466556787490845
+}
