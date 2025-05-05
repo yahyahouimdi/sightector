@@ -1,0 +1,46 @@
+{
+  "legacy": {
+    "clean": 0.7142857142857143,
+    "hinglish": 0.6666666666666666,
+    "obfuscated": 0.2727272727272727,
+    "plain insult": 0.8333333333333334,
+    "profanity": 1.0,
+    "sexist": 1.0,
+    "sexual harassment": 1.0,
+    "threat": 0.6666666666666666,
+    "tricky clean": 0.6875
+  },
+  "baseline": {
+    "clean": 0.8571428571428571,
+    "hinglish": 1.0,
+    "obfuscated": 1.0,
+    "plain insult": 1.0,
+    "profanity": 1.0,
+    "sexist": 1.0,
+    "sexual harassment": 1.0,
+    "threat": 0.6666666666666666,
+    "tricky clean": 0.75
+  },
+  "bilstm": {
+    "clean": 0.9285714285714286,
+    "hinglish": 1.0,
+    "obfuscated": 1.0,
+    "plain insult": 1.0,
+    "profanity": 1.0,
+    "sexist": 1.0,
+    "sexual harassment": 1.0,
+    "threat": 0.5,
+    "tricky clean": 0.8125
+  },
+  "transformer": {
+    "clean": 1.0,
+    "hinglish": 1.0,
+    "obfuscated": 0.9090909090909091,
+    "plain insult": 1.0,
+    "profanity": 1.0,
+    "sexist": 0.3333333333333333,
+    "sexual harassment": 1.0,
+    "threat": 0.6666666666666666,
+    "tricky clean": 0.9375
+  }
+}

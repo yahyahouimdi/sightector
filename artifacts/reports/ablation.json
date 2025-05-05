@@ -1,0 +1,26 @@
+[
+  {
+    "setting": "raw input + no augmentation",
+    "test": 0.9303504043126685,
+    "test_obfuscated": 0.87028141783029,
+    "challenge": 0.854945054945055
+  },
+  {
+    "setting": "normalizer + no augmentation",
+    "test": 0.9354258197680774,
+    "test_obfuscated": 0.9180340605311126,
+    "challenge": 0.880184331797235
+  },
+  {
+    "setting": "raw input + augmentation",
+    "test": 0.9222610880130724,
+    "test_obfuscated": 0.8119195046439629,
+    "challenge": 0.8068988281894702
+  },
+  {
+    "setting": "normalizer + augmentation",
+    "test": 0.9243875748071135,
+    "test_obfuscated": 0.9122243969418253,
+    "challenge": 0.9076923076923078
+  }
+]

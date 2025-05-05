@@ -1,0 +1,79 @@
+category,text,label,clean_text,pred,prob
+plain insult,you are an idiot,1,you are an idiot,1,1.0
+plain insult,you are so stupid,1,you are so stupid,1,1.0
+plain insult,shut up you loser,1,shut up you loser,1,0.884
+plain insult,what a pathetic moron,1,what a pathetic moron,1,0.997
+plain insult,"nobody likes you, you ugly freak",1,"nobody likes you , you ugly freak",1,0.796
+plain insult,you are worthless garbage,1,you are worthless garbage,1,0.726
+profanity,fuck you,1,fuck you,1,1.0
+profanity,go fuck yourself,1,go fuck yourself,1,1.0
+profanity,you piece of shit,1,you piece of shit,1,1.0
+profanity,you stupid bitch,1,you stupid bitch,1,1.0
+profanity,what an asshole,1,what an asshole,1,1.0
+profanity,shut the fuck up,1,shut the fuck up,1,1.0
+threat,i will kill you,1,i will kill you,1,0.999
+threat,go kill yourself,1,go kill yourself,1,0.937
+threat,i know where you live and i will hurt you,1,i know where you live and i will hurt you,0,0.043
+threat,you deserve to die,1,you deserve to die,1,0.992
+threat,i'm going to beat you up after school,1,i'm going to beat you up after school,0,0.019
+threat,i will find you and make you pay,1,i will find you and make you pay,1,0.548
+sexist,women belong in the kitchen,1,women belong in the kitchen,1,0.919
+sexist,shut up and make me a sandwich woman,1,shut up and make me a sandwich woman,1,0.742
+sexist,"you're just a dumb girl, nobody cares",1,"you're just a dumb girl , nobody cares",1,0.987
+sexual harassment,send me nudes or else,1,send me nudes or else,1,0.403
+sexual harassment,"you're hot, i will rape you",1,"you're hot , i will rape you",1,0.999
+obfuscated,you are a fu*ck idiot,1,you are a fuck idiot,1,1.0
+obfuscated,iiiidiot,1,idiot,1,1.0
+obfuscated,you are such an iiidiot,1,you are such an idiot,1,1.0
+obfuscated,f u c k you,1,fuck you,1,1.0
+obfuscated,f*ck off,1,fuck off,1,1.0
+obfuscated,f**k you,1,fuck you,1,1.0
+obfuscated,sh!t head,1,shithead,1,0.999
+obfuscated,you're a 1d10t,1,you're a idiot,1,1.0
+obfuscated,stfu loser,1,shut the fuck up loser,1,1.0
+obfuscated,you are a b!tch,1,you are a bitch,1,1.0
+obfuscated,u r a m0r0n,1,u r a moron,1,1.0
+obfuscated,k i l l yourself,1,kill yourself,1,0.801
+obfuscated,d1e in a fire,1,die in a fire,1,0.971
+obfuscated,fuuuuuck yooou,1,fuck yoou,1,1.0
+obfuscated,you are ѕtupid,1,you are stupid,1,1.0
+obfuscated,STUPIIIID,1,stupid,1,1.0
+obfuscated,a$$hole,1,asshole,1,1.0
+obfuscated,you f-u-c-k-i-n-g retard,1,you fucking retard,1,1.0
+obfuscated,dumb@ss,1,dumb @user,1,0.989
+obfuscated,you are a st*pid c0w,1,you are a stupid c0w,1,1.0
+obfuscated,b1tch please,1,bitch please,1,0.997
+obfuscated,go to h3ll you l0ser,1,go to h3ll you loser,1,0.675
+hinglish,tu chutiya hai,1,tu chutiya hai,1,0.999
+hinglish,saala kamina,1,saala kamina,1,0.882
+hinglish,teri maa ki,1,teri maa ki,1,0.95
+clean,you are brave,0,you are brave,0,0.091
+clean,"you are brilliant, thank you!",0,"you are brilliant , thank you !",0,0.363
+clean,have a great day,0,have a great day,0,0.059
+clean,thanks for your help with the article,0,thanks for your help with the article,0,0.016
+clean,"i disagree with your edit, can we discuss it?",0,"i disagree with your edit , can we discuss it ?",0,0.048
+clean,the meeting is moved to 3pm,0,the meeting is moved to 3pm,0,0.077
+clean,i love this song so much,0,i love this song so much,0,0.043
+clean,congratulations on your graduation,0,congratulations on your graduation,0,0.077
+clean,can you send me the report please,0,can you send me the report please,1,0.448
+clean,good morning everyone,0,good morning everyone,0,0.076
+clean,this is a really interesting paper,0,this is a really interesting paper,0,0.027
+clean,let's grab coffee tomorrow,0,let's grab coffee tomorrow,1,0.627
+clean,happy birthday my friend,0,happy birthday my friend,0,0.313
+clean,I'm proud of you,0,i'm proud of you,0,0.279
+tricky clean,kill the process and restart the server,0,kill the process and restart the server,1,0.566
+tricky clean,this exam is killing me,0,this exam is killing me,1,0.789
+tricky clean,I hate mondays,0,i hate mondays,0,0.004
+tricky clean,that concert was sick!,0,that concert was sick !,0,0.254
+tricky clean,the movie was so bad it was funny,0,the movie was so bad it was funny,0,0.133
+tricky clean,my dog is a good boy,0,my dog is a good boy,1,0.635
+tricky clean,shoot me an email when you are free,0,shoot me an email when you are free,1,0.934
+tricky clean,the class assessment is due friday,0,the class assessment is due friday,0,0.185
+tricky clean,we need to beat the deadline,0,we need to beat the deadline,0,0.016
+tricky clean,sooo happy to see you,0,soo happy to see you,0,0.034
+tricky clean,the 4 of us will meet at 5,0,the 4 of us will meet at 5,0,0.063
+tricky clean,this assignment is hard but fair,0,this assignment is hard but fair,0,0.103
+tricky clean,the article about bullying was well written,0,the article about bullying was well written,0,0.125
+tricky clean,please don't use insulting language here,0,please don't use insulting language here,0,0.103
+tricky clean,he passed the class with honors,0,he passed the class with honors,0,0.152
+tricky clean,grandpa fell asleep on the couch,0,grandpa fell asleep on the couch,0,0.226
