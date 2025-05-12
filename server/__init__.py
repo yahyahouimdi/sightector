@@ -1,0 +1,1 @@
+"""Sightector REST API (Flask)."""
