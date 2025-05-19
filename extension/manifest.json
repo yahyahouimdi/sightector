@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Sightector: Detect, Protect, and Respect",
+  "description": "Detects online harassment - even disguised insults like fu*ck or iiidiot - in any text you select.",
+  "version": "2.0.0",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["http://127.0.0.1/*", "http://localhost/*"],
+  "icons": { "128": "images/ENIT SIGHT GROUP (3).png" },
+  "action": { "default_popup": "index.html" },
+  "background": { "service_worker": "background.js" }
+}
