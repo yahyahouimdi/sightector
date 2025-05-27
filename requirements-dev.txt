@@ -1,0 +1,4 @@
+# Documentation tooling: screenshots, report PDF (in addition to requirements.txt)
+-r requirements.txt
+playwright>=1.47
+markdown>=3.6

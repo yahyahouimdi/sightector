@@ -1,0 +1,15 @@
+{
+  "name": "sightector-docs-tools",
+  "private": true,
+  "description": "Builds docs/Sightector_Presentation.pptx (cd scripts && npm install && npm run slides)",
+  "scripts": {
+    "slides": "node build_presentation.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "3.12.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-icons": "5.4.0",
+    "sharp": "0.33.5"
+  }
+}
