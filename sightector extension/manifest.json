@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": " sightector: Detect, Protect, and Respect",
+  "version": "1.0",
+  "permissions": [
+    "tabs", 
+    "scripting",
+    "storage",
+    "activeTab"
+  ],
+  "icons": {
+  "128": "images/ENIT SIGHT GROUP (3).png"
+        },
+
+  "host_permissions": [
+    "*://localhost/*"  
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

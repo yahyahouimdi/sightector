@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sightector</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0c6a9d, #ffffff,#0c6a9d);
+        background-attachment: fixed;
+        color: #0c2547;
+        padding: 30px;
+        border-radius: 10px;
+        width: 400px;
+        height: auto;
+        box-shadow: 0 4px 8px rgba(5, 4, 4, 0.1);
+        position: relative;
+        min-height: 100vh;
+        margin: 0 auto;
+    }
+
+    /* Abstract background symbols */
+    body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('https://www.transparenttextures.com/patterns/circles.png') repeat;
+        opacity: 0.1;
+        z-index: 0;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Header Styling */
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 250px;
+        height: auto;
+        margin-right: 3px;
+    }
+
+    .title {
+        font-size: 30px;
+        color: #0c2547;
+        text-shadow: 0px 0px 0px rgba(12, 4, 4, 0.2);
+        letter-spacing: 3px;
+        font-family: 'Lora', serif;
+        font-weight: bold; /* Set it to normal (400) */
+        font-style: italic;
+        margin-right: 40px ;
+    }
+
+    /* Section styling */
+    .section {
+      margin-bottom: 20px;
+      text-align: center; /* Center section content */
+    }
+
+    textarea {
+        width: 100%;
+        height: 100px;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #ffffff;
+        border: 1px solid #0c2547;
+        color: #4a4a4a;
+        resize: none;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+    }
+
+    hr {
+        border: 1px solid #ffffff;
+        margin: 20px 0;
+    }
+
+    .action-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center button and result */
+        }
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #0c2547 ;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-bottom: 10px; /* Add space between button and result */
+    }
+
+    button:hover {
+        background-color: #cc163f;
+    }
+
+    .result {
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000;
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .result.success {
+        background-color: #f6f8f5;
+        color: #000000;
+    }
+
+    .result.error {
+        background-color: #cc163f;
+        color: #a33a3a;
+    }
+
+    .quote {
+        font-size: 14px;
+        font-style: italic;
+        color: #cc163f;
+        margin-top: 30px;
+        text-align: center;
+    }
+    /* Footer Links and Version */
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .version {
+        font-size: 14px;
+        color: #0c2547;
+        /* Adjust to keep it on the left */
+        margin-right: auto; /* This pushes the privacy and terms to the right */
+    }
+    /* Footer spacing */
+    .footer-space {
+        margin-top: 2px;
+    }
+</style>
+</head>
+<body>
+<!-- Header Section -->
+<div class="header container">
+    <img src="images/ENIT SIGHT GROUP (3).png" alt="Logo" class="logo">
+    
+</div>
+
+<!-- Textarea Section -->
+<div class="section action-container container">
+    <textarea id="selectedText" readonly placeholder="Selected text will appear here..."></textarea>
+</div>
+
+<!-- Scan for Harassment Section -->
+<div class="section action-container container">
+    <button id="scanButton">Scan for Harassment</button>
+    <div class="result" id="result"></div>
+    <div class="footer-space"></div>
+    <div id="harassmentAdviceContainer"></div> <!-- This div will contain the harassment advice -->
+</div>
+
+
+
+<!-- Check Malicious Link Section -->
+<div class="section action-container container">
+    <button id="checkLinkButton">Check URL Security</button>
+    <div class="result" id="linkResult"></div>
+    <div class="footer-space"></div>
+    <div id="linkAdviceContainer"></div>
+</div>
+
+<!-- Quote Section -->
+<div class="footer-space"></div>
+<div class="quote container">
+    ~ Where Words Are Watched, Respect Is Raised ! ~
+</div>
+
+<!-- Footer Section -->
+<div class="footer container">
+  <div class="text">
+      IEEE ENIT SIGHT GROUP
+  </div>
+  <div class="privacy-terms">
+      <a href="#" style="color: #0c2547;">Privacy </a> | <a href="#" style="color: #0c2547;">Terms</a>
+  </div>
+</div>
+<div class="header container">
+    <img src="images/ENIT SIGHT GROUP (4).png" alt="Logo" class="logo" style="height: 200px ;width:200px ;">
+    
+</div>
+
+
+<!-- External JS -->
+<script src="popup.js"></script>
+</body>
+</html>
