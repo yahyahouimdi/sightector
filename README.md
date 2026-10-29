@@ -247,3 +247,7 @@ cd scripts && npm install && npm run slides   # docs/Sightector_Presentation.ppt
 Built by the IEEE ENIT SIGHT Group (École Nationale d'Ingénieurs de Tunis).
 Enrichment data: [Civil Comments](https://huggingface.co/datasets/google/civil_comments) (Jigsaw, CC0).
 Base model: [distilroberta-base](https://huggingface.co/distilroberta-base).
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE).
