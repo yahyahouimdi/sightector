@@ -1,0 +1,19 @@
+# Only sightector/, server/, artifacts/models/ and requirements.txt are needed.
+.git
+.gitignore
+venv/
+.venv/
+**/__pycache__
+**/*.py[cod]
+.pytest_cache/
+DetectionModelServer/
+legacy/
+data/
+docs/
+extension/
+scripts/
+tests/
+node_modules/
+artifacts/reports/
+artifacts/models/ablation_*/
+*.md
