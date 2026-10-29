@@ -135,6 +135,17 @@ python -m server                         # http://127.0.0.1:5000
 Open <http://127.0.0.1:5000> for the live demo. A link such as `/?q=you+are+an+iiidiot` analyzes
 its text immediately.
 
+### Or run it with Docker
+
+```bash
+docker build -t sightector:2.0.0 .        # or: docker compose up --build
+docker run -p 5000:5000 sightector:2.0.0  # http://127.0.0.1:5000
+```
+
+The image runs CPU inference behind Waitress and bundles whatever models are in `artifacts/models/`
+at build time. Train the Transformer first to ship it; otherwise the image serves the baseline.
+Choose the model with `-e SIGHTECTOR_MODEL=bilstm`.
+
 ### 4. Load the browser extension
 
 1. Open `chrome://extensions` (or `edge://extensions`) and enable **Developer mode**.

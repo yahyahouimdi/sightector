@@ -1,0 +1,9 @@
+services:
+  sightector:
+    build: .
+    image: sightector:2.0.0
+    ports:
+      - "5000:5000"
+    environment:
+      SIGHTECTOR_MODEL: transformer   # transformer | bilstm | baseline
+    restart: unless-stopped
